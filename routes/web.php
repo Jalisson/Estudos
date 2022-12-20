@@ -30,4 +30,4 @@ Route::get('produtos', 'base_de_dados\produtos@Roupas');//Controllers dentro de 
 Route::get('single', 'funcaoUnica');//Single Action COntroller
 // Route::get('info/{index}', 'Estudos@info');
 Route::get('info/{id?}', 'Estudos@cliente');
-Route::resource('listagens','produtos');
+Route::resource('listagens','produtos');//meu produtos
