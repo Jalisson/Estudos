@@ -61,5 +61,18 @@ class Estudos extends Controller
 
     }
 
+    public function produtos(){
+        $dados = [
+            'nome' => 'Feijão',
+            'valor' => 10.00,
+            'desc' => 'Vindo do amazonas da melho colheita'
+
+        ];
+        return view('produtos', $dados);
+        
+
+
+    }
+
 
 }
