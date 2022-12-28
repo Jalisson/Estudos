@@ -8,9 +8,20 @@
 </head>
 <body>
     
-    <p>Nome:como acessar a rota :  {{route('nome1')}} ..<br> nome {{$nome}} </p>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>Sobre nós</li>
+            <li>Contato</li>
+        </ul>
+    </nav>                  
     
-    
+    @yield('cadastro')
+    @yield('produtos')
+
+    <footer>
+        <h1>esse é um roda pé</h1>
+    </footer>
     
 </body>
 </html>
