@@ -1,0 +1,26 @@
+
+.carousel img{
+    width: 10%;
+    height: 40em;
+}
+.title-icon{
+    color:#1e2022;
+    font-size:20px;
+}
+.DescIcon{
+    color: #77838f;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+}
+.bm{
+    margin-top: 2cm;
+}
+.btn-primary{
+    background-color: transparent !important;
+    border: none;
+}
+.logoColaborador{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
