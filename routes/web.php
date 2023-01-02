@@ -18,5 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 
 
-Route::get('/', 'Estudos@exibirhome');
-Route::get('/produtos', 'Estudos@exibirprodutos');
+Route::get('/', 'Principal@exibirhome');

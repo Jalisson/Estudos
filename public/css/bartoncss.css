@@ -7,7 +7,7 @@
     color:#1e2022;
     font-size:20px;
 }
-.DescIcon{
+.Desc{
     color: #77838f;
     font-family: "Roboto", Sans-serif;
     font-size: 16px;
@@ -19,8 +19,145 @@
     background-color: transparent !important;
     border: none;
 }
-.logoColaborador{
-    display: flex;
-    align-items: center;
-    padding: 10px;
+
+h1, h2, h3, h4,h5 ,h6{
+    font-family: "Roboto", Sans-serif;
+    font-size: 36px;
+    font-weight:400;
+    
 }
+span{
+    color:#FF292A;
+}
+.espacoContainer{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+.espacoRow{
+    margin-bottom: 5rem;
+}
+
+.descServicos img{
+    width: 7cm;
+    height: 7cm;
+}
+.imgIcon{
+    width: 3rem;
+}
+.tituloDescNevCold{
+    font-size: 20px;
+}
+.imgNevcloud{
+    width: 15cm;
+}
+.columTituloHome{
+    padding-top: 5rem;
+}
+.logoColaborador img{
+    width: 10em;
+}
+.footer-config img{
+    width:20rem; 
+}
+.footer-config ul{
+    display: block;
+    margin-top: 2cm;
+}
+footer{
+  background-color: #E7E7E7;
+}
+.footer-config ul li{
+    list-style: none;
+    color:#77838f;
+}
+.footer-config ul a{
+    text-decoration: none;
+}
+.title-footer{
+    color:#1e2022;
+    font-size: 20px;
+}
+
+.endfooter{
+    margin: 0;
+    padding: 0.1cm;
+    background-color: #222329;
+
+}
+
+/*Menu*/
+.menu{
+    background-color: #1c1e23;
+    /* position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 ; */
+}
+.logo-menu img{
+    width: 10em;
+    padding: 1em 0 1em;
+
+}
+.registro_menu{
+    text-align: center;
+    margin: auto;
+    padding: 1em 0 1em;
+    color:#ffffff;
+
+
+}
+
+.nav{
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+    width: 550px;
+    position: relative;
+}
+.nav a{
+    display: block;
+    font-weight: 600;
+    position: relative;
+    float: left;
+    padding: 1em 0 1em;
+    width: 20%;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.7s;
+    text-transform: uppercase;
+}
+.nav a:hover{
+    color:#FF292A;
+}
+.effect{
+    position: absolute;
+    left: -10.5%;
+    transition: 0.7s ease-in-out;
+}
+.nav a:nth-child(1):hover ~ .effect{
+    left: 9.5%;
+}
+.nav a:nth-child(2):hover ~ .effect{
+    left: 29.5%;
+}
+.nav a:nth-child(3):hover ~ .effect{
+    left: 47.5%;
+}
+.nav a:nth-child(4):hover ~ .effect{
+    left: 67.5%;
+}
+.nav a:nth-child(5):hover ~ .effect{
+    left: 87.5%;
+}
+
+
+.dot-nav .effect{
+    width: 10px;
+    height: 10px;
+    bottom: 3px;
+    margin-left: -5px;
+    background-color: #FF292A;
+    border-radius: 100%;
+    z-index: 99;
+}
+
