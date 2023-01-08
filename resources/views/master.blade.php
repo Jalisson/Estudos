@@ -18,8 +18,8 @@
                 </div>
                 <div class="col-6">
                     <div class="dot-nav nav">
-                        <a href="">Home</a>
-                        <a href="">Sobre nós</a>
+                        <a href="{{route('home')}}">Home</a>
+                        <a href="{{route('sobre-nos')}}">Sobre nós</a>
                         <a href="">Serviços</a>
                         <a href="">Portfólio</a>
                         <a href="">Contato</a>   
@@ -33,23 +33,19 @@
             </div>
         </div>
     </div>
-   <div class="container">
-    <div class="row">
-        <div class="col-6 columTituloHome">
-            <h1>Organize o seu <br><span>negocio</span> do jeito<br> certo</h1>
-            <P class="Desc">Criamos sites e softwares que gerencia os processos e alavancam os resultados do seu projeto!</P>
-        </div>
-        <div class="col-6">
-            <img src="{{asset('img/banner/websitepana.svg')}}" alt="">
-        </div>
-    </div>
-   </div>
-
-
+    {{--Pagina HOME --}}
+        @yield('bannerHome'){{--banner da pasta banner--}}
         @yield('ListaQualidade')
    {{-- @yield('listaColaboradores')--}}
+        @yield('sobre_nos')
         @yield('nossosServicos')
         @yield('depoimentos')
+            
+    {{-- pagina de sobre nós --}}
+        @yield('bannerSObrenos')
+        @yield('sobre')
+
+
 
 <footer>
     <div class="container">

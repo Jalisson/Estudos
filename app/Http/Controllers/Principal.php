@@ -10,5 +10,8 @@ class Principal extends Controller
         public function exibirhome(){
             return view('home');
         }
+        public function exibirSobreNos(){
+            return view('sobre-nos');
+        }
 
 }

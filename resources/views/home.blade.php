@@ -1,4 +1,7 @@
 @extends('master')
+@section('bannerHome')
+    @include('banner.bannerHome')
+@endsection
 @section('ListaQualidade')
 <div class="container text-center bm">
         <div class="row">
@@ -19,10 +22,88 @@
 
             </div>
         </div>
-
+        
     </div>
     <hr>
-@endsection 
+@endsection
+@section('sobre_nos')
+<div class="container espacoContainer">
+    <div class="row">
+        <div class="col-6 formatcolSObrenos">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <img class="imgSobreNosForm" src="{{asset('img/home/3.webp')}}" alt="">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="colFormLabel" placeholder="Nome">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="colFormLabel" placeholder="E-mail">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="tel" class="form-control" id="colFormLabel" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="object" class="form-control" id="colFormLabel" placeholder="Assunto">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10">
+                        <input type="submit" class="form-control" id="colFormLabel" placeholder="Enviar">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 ">
+                <h2>Sobre <span>Nós</span></h2>
+                <p class="Desc">
+                    A NEVCOD tem o foco em solucionar problemas de empresas
+                    por meios de Software. Damos um direcionamento de como 
+                    o seu problema pode ser solucionado sem gerar impacto 
+                    na sua empresa, trazemos soluções para ampliar e melhorar 
+                    e gerir o seu negocio. Ficou interessado?  Entre em contato
+                    conosco e solicite uma consultoria gratuita!  
+                </p>
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="idenDescSobreNos">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                            </svg>      
+                            
+                            Serviço de Excelência
+                        </h3>
+                    </div>
+                    <div class="col-6">
+                        <h3 class="idenDescSobreNos">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                                <path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+                            </svg> 
+                             Melhores Preços
+                        </h3>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@endsection
+
 @section('listaColaboradores')
 {{--Lista de icons de colaboradores--}}
     <div class="container espacoContainer">
